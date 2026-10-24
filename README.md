@@ -92,3 +92,5 @@ The image runs ingest on first start if `data/index` is empty.
 | GET | `/v1/people/{name}` | Profile + related verses |
 
 Translation in the index is KJV (public domain). People summaries are a study aid; verses are the primary source.
+## Deployment 
+https://bible-chatbot-2sua.onrender.com/
