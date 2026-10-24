@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "adam",
+    "name": "Adam",
+    "aliases": ["first man"],
+    "testament": "OT",
+    "role": "First human; husband of Eve",
+    "summary": "Adam is the first man created by God from the dust of the ground. He lived in Eden, named the animals, and with Eve disobeyed God by eating from the tree of the knowledge of good and evil, bringing sin and death into the world.",
+    "events": [
+      "Created in the image of God and placed in Eden.",
+      "Given Eve as a wife.",
+      "Ate forbidden fruit and was expelled from the garden.",
+      "Father of Cain, Abel, and Seth."
+    ],
+    "related": ["Eve", "Cain", "Abel", "Seth", "God"],
+    "verses": ["Genesis 1:26-28", "Genesis 2:7-25", "Genesis 3:1-24", "Genesis 5:1-5", "Romans 5:12-19"]
+  },
+  {
+    "id": "eve",
+    "name": "Eve",
+    "aliases": ["first woman", "mother of all living"],
+    "testament": "OT",
+    "role": "First woman; wife of Adam",
+    "summary": "Eve was formed from Adam's rib as his companion. The serpent deceived her; she ate the forbidden fruit and gave it to Adam. After the fall she became mother of Cain, Abel, and Seth.",
+    "events": [
+      "Created from Adam's side.",
+      "Deceived by the serpent and ate the forbidden fruit.",
+      "Named mother of all living.",
+      "Bore Cain, Abel, and Seth."
+    ],
+    "related": ["Adam", "Cain", "Abel", "Seth", "serpent"],
+    "verses": ["Genesis 2:18-25", "Genesis 3:1-20", "Genesis 4:1-2", "1 Timothy 2:13-14"]
+  },
+  {
+    "id": "noah",
+    "name": "Noah",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Builder of the ark",
+    "summary": "Noah was a righteous man in a violent generation. God told him to build an ark to save his family and animals from a worldwide flood. After the flood God made a covenant with him, marked by the rainbow.",
+    "events": [
+      "Found favor with God while the earth was corrupt.",
+      "Built the ark and entered with his family and animals.",
+      "Survived the flood and offered sacrifice.",
+      "Received the rainbow covenant.",
+      "Father of Shem, Ham, and Japheth."
+    ],
+    "related": ["Shem", "Ham", "Japheth", "God"],
+    "verses": ["Genesis 6:8-22", "Genesis 7:1-24", "Genesis 8:1-22", "Genesis 9:1-17", "Hebrews 11:7"]
+  },
+  {
+    "id": "abraham",
+    "name": "Abraham",
+    "aliases": ["Abram", "father of many nations"],
+    "testament": "OT",
+    "role": "Patriarch of Israel; man of faith",
+    "summary": "Abraham left Ur at God's call, received the covenant of land, descendants, and blessing, waited for the promised son Isaac, and was tested when asked to offer Isaac. He is the ancestor of Israel and a model of faith.",
+    "events": [
+      "Called from Ur to Canaan; name changed from Abram to Abraham.",
+      "Covenant of circumcision and promised offspring.",
+      "Fathered Ishmael by Hagar and Isaac by Sarah.",
+      "Interceded for Sodom.",
+      "Nearly offered Isaac on Moriah; God provided a ram."
+    ],
+    "related": ["Sarah", "Isaac", "Ishmael", "Hagar", "Lot", "Melchizedek"],
+    "verses": ["Genesis 12:1-9", "Genesis 15:1-21", "Genesis 17:1-27", "Genesis 22:1-18", "Hebrews 11:8-19"]
+  },
+  {
+    "id": "sarah",
+    "name": "Sarah",
+    "aliases": ["Sarai"],
+    "testament": "OT",
+    "role": "Wife of Abraham; mother of Isaac",
+    "summary": "Sarah was Abraham's wife. Barren for many years, she gave Hagar to Abraham, then miraculously bore Isaac in old age. God changed her name from Sarai to Sarah.",
+    "events": [
+      "Traveled with Abraham from Ur.",
+      "Gave Hagar to Abraham; conflict over Ishmael.",
+      "Laughed at the promise of a son, then bore Isaac.",
+      "Buried in the cave of Machpelah."
+    ],
+    "related": ["Abraham", "Isaac", "Hagar", "Ishmael"],
+    "verses": ["Genesis 12:5", "Genesis 16:1-6", "Genesis 18:9-15", "Genesis 21:1-7", "Hebrews 11:11"]
+  },
+  {
+    "id": "isaac",
+    "name": "Isaac",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Son of Abraham; father of Jacob and Esau",
+    "summary": "Isaac was the promised son of Abraham and Sarah. God stopped Abraham from sacrificing him. He married Rebekah, fathered Esau and Jacob, and passed on the covenant blessing.",
+    "events": [
+      "Born to Abraham and Sarah in their old age.",
+      "Bound on the altar at Moriah.",
+      "Married Rebekah.",
+      "Blessed Jacob instead of Esau."
+    ],
+    "related": ["Abraham", "Sarah", "Rebekah", "Jacob", "Esau"],
+    "verses": ["Genesis 21:1-7", "Genesis 22:1-14", "Genesis 24:1-67", "Genesis 27:1-40"]
+  },
+  {
+    "id": "rebekah",
+    "name": "Rebekah",
+    "aliases": ["Rebecca"],
+    "testament": "OT",
+    "role": "Wife of Isaac; mother of Jacob and Esau",
+    "summary": "Rebekah was chosen as Isaac's wife after Abraham's servant found her at a well. She favored Jacob and helped him obtain Isaac's blessing, then sent him to Laban to escape Esau.",
+    "events": [
+      "Met Abraham's servant at the well and agreed to marry Isaac.",
+      "Bore twin sons Esau and Jacob.",
+      "Helped Jacob deceive Isaac for the blessing."
+    ],
+    "related": ["Isaac", "Jacob", "Esau", "Laban"],
+    "verses": ["Genesis 24:15-67", "Genesis 25:21-28", "Genesis 27:5-17"]
+  },
+  {
+    "id": "jacob",
+    "name": "Jacob",
+    "aliases": ["Israel", "James (OT)"],
+    "testament": "OT",
+    "role": "Patriarch; father of the twelve tribes",
+    "summary": "Jacob, younger twin of Esau, obtained the birthright and blessing, fled to Laban, married Leah and Rachel, and fathered twelve sons. God renamed him Israel after wrestling with him. His family went to Egypt in Joseph's time.",
+    "events": [
+      "Bought Esau's birthright and received Isaac's blessing.",
+      "Dreamed of a ladder at Bethel.",
+      "Worked for Laban; married Leah and Rachel.",
+      "Wrestled with God and was named Israel.",
+      "Reconciled with Esau; moved to Egypt."
+    ],
+    "related": ["Isaac", "Rebekah", "Esau", "Leah", "Rachel", "Joseph", "Judah"],
+    "verses": ["Genesis 25:19-34", "Genesis 27:1-45", "Genesis 28:10-22", "Genesis 32:22-32", "Genesis 49:1-28"]
+  },
+  {
+    "id": "esau",
+    "name": "Esau",
+    "aliases": ["Edom"],
+    "testament": "OT",
+    "role": "Elder twin of Jacob; ancestor of Edom",
+    "summary": "Esau was a hunter who sold his birthright for stew and lost the blessing to Jacob. He later reconciled with Jacob and became the ancestor of Edom.",
+    "events": [
+      "Sold his birthright to Jacob.",
+      "Planned to kill Jacob after the stolen blessing.",
+      "Reconciled with Jacob years later."
+    ],
+    "related": ["Isaac", "Rebekah", "Jacob"],
+    "verses": ["Genesis 25:24-34", "Genesis 27:30-41", "Genesis 33:1-16"]
+  },
+  {
+    "id": "joseph-ot",
+    "name": "Joseph son of Jacob",
+    "aliases": ["Joseph", "Zaphnath-Paaneah"],
+    "testament": "OT",
+    "role": "Son of Jacob; ruler in Egypt",
+    "summary": "Joseph, Rachel's first son, was sold by his brothers, rose from slavery and prison to interpret Pharaoh's dreams, and stored grain for famine. He later forgave his brothers and brought Israel to Egypt.",
+    "events": [
+      "Received a coat and dreams of ruling; sold into Egypt.",
+      "Resisted Potiphar's wife and was imprisoned.",
+      "Interpreted Pharaoh's dreams and became second in Egypt.",
+      "Tested and forgave his brothers; settled Jacob's family in Goshen."
+    ],
+    "related": ["Jacob", "Rachel", "Benjamin", "Judah", "Pharaoh", "Potiphar"],
+    "verses": ["Genesis 37:1-36", "Genesis 39:1-23", "Genesis 41:14-57", "Genesis 45:1-15", "Genesis 50:15-21"]
+  },
+  {
+    "id": "moses",
+    "name": "Moses",
+    "aliases": ["Moshe"],
+    "testament": "OT",
+    "role": "Deliverer, lawgiver, prophet",
+    "summary": "Moses was hidden as a baby, raised in Pharaoh's house, fled after killing an Egyptian, and met God at the burning bush. He led Israel out of Egypt, received the Law at Sinai, and died overlooking Canaan.",
+    "events": [
+      "Drawn from the Nile and raised by Pharaoh's daughter.",
+      "Called at the burning bush; confronted Pharaoh with plagues.",
+      "Led the Exodus and crossing of the Red Sea.",
+      "Received the Ten Commandments; interceded after the golden calf.",
+      "Struck the rock at Meribah and was barred from Canaan."
+    ],
+    "related": ["Aaron", "Miriam", "Pharaoh", "Jethro", "Joshua", "Zipporah"],
+    "verses": ["Exodus 2:1-15", "Exodus 3:1-15", "Exodus 14:21-31", "Exodus 20:1-17", "Deuteronomy 34:1-12"]
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron",
+    "aliases": [],
+    "testament": "OT",
+    "role": "First high priest; brother of Moses",
+    "summary": "Aaron spoke for Moses before Pharaoh, became Israel's first high priest, and later failed with the golden calf. His staff budded to confirm his priesthood.",
+    "events": [
+      "Joined Moses as spokesman to Pharaoh.",
+      "Made the golden calf at Sinai.",
+      "Ordained as high priest.",
+      "His rod budded; he died on Mount Hor."
+    ],
+    "related": ["Moses", "Miriam", "Nadab", "Abihu", "Eleazar"],
+    "verses": ["Exodus 4:14-16", "Exodus 7:1-7", "Exodus 32:1-6", "Leviticus 8:1-12", "Numbers 17:1-11"]
+  },
+  {
+    "id": "miriam",
+    "name": "Miriam",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Prophetess; sister of Moses",
+    "summary": "Miriam watched over baby Moses, led women in song after the Red Sea, and was struck with leprosy after speaking against Moses, then healed after Moses prayed.",
+    "events": [
+      "Watched Moses in the Nile basket.",
+      "Sang after the Red Sea crossing.",
+      "Criticized Moses and was struck with leprosy, then restored."
+    ],
+    "related": ["Moses", "Aaron"],
+    "verses": ["Exodus 2:4-8", "Exodus 15:20-21", "Numbers 12:1-15"]
+  },
+  {
+    "id": "joshua",
+    "name": "Joshua",
+    "aliases": ["Hoshea", "Oshea"],
+    "testament": "OT",
+    "role": "Moses' successor; conqueror of Canaan",
+    "summary": "Joshua was Moses' aide, one of the two faithful spies, and led Israel across the Jordan, around Jericho, and through the conquest of Canaan. He called Israel to serve the Lord at Shechem.",
+    "events": [
+      "Served Moses and spied out Canaan with Caleb.",
+      "Commissioned to lead after Moses.",
+      "Crossed the Jordan; Jericho's walls fell.",
+      "Divided the land and renewed the covenant."
+    ],
+    "related": ["Moses", "Caleb", "Rahab"],
+    "verses": ["Exodus 17:8-13", "Numbers 14:6-9", "Joshua 1:1-9", "Joshua 6:1-20", "Joshua 24:14-15"]
+  },
+  {
+    "id": "rahab",
+    "name": "Rahab",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Woman of Jericho who hid the spies",
+    "summary": "Rahab hid Joshua's spies in Jericho, confessed faith in Israel's God, and was spared when the city fell. She is named in Jesus' genealogy and as an example of faith.",
+    "events": [
+      "Hid the spies and asked protection for her family.",
+      "Marked her house with a scarlet cord.",
+      "Joined Israel after Jericho fell."
+    ],
+    "related": ["Joshua"],
+    "verses": ["Joshua 2:1-21", "Joshua 6:22-25", "Matthew 1:5", "Hebrews 11:31"]
+  },
+  {
+    "id": "deborah",
+    "name": "Deborah",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Judge and prophetess",
+    "summary": "Deborah judged Israel, summoned Barak to fight Sisera, and with Jael saw Canaanite oppression broken. She sang a victory song with Barak.",
+    "events": [
+      "Judged Israel under a palm tree.",
+      "Sent Barak against Sisera.",
+      "Celebrated victory in song."
+    ],
+    "related": ["Barak", "Jael", "Sisera"],
+    "verses": ["Judges 4:4-16", "Judges 5:1-31"]
+  },
+  {
+    "id": "gideon",
+    "name": "Gideon",
+    "aliases": ["Jerubbaal"],
+    "testament": "OT",
+    "role": "Judge who defeated Midian",
+    "summary": "Gideon was called while threshing in secret. After fleece signs, he reduced his army to 300 and routed Midian. Later he made an ephod that became a snare.",
+    "events": [
+      "Called by the angel of the Lord.",
+      "Tore down Baal's altar.",
+      "Defeated Midian with 300 men.",
+      "Refused kingship but made an ephod."
+    ],
+    "related": ["Midianites"],
+    "verses": ["Judges 6:11-40", "Judges 7:1-22", "Judges 8:22-27"]
+  },
+  {
+    "id": "samson",
+    "name": "Samson",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Nazirite judge of superhuman strength",
+    "summary": "Samson was a Nazirite whose strength was tied to his uncut hair. He fought the Philistines, was betrayed by Delilah, and died bringing down a Philistine temple.",
+    "events": [
+      "Born to Manoah as a Nazirite.",
+      "Killed a lion; struck Philistines with a jawbone.",
+      "Told Delilah the secret of his hair.",
+      "Blinded, then destroyed the temple of Dagon as he died."
+    ],
+    "related": ["Delilah", "Philistines"],
+    "verses": ["Judges 13:1-25", "Judges 15:14-20", "Judges 16:4-30"]
+  },
+  {
+    "id": "ruth",
+    "name": "Ruth",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Moabite ancestor of David",
+    "summary": "Ruth, a Moabite widow, clung to Naomi and Israel's God, gleaned in Boaz's fields, and married Boaz as kinsman-redeemer. She became great-grandmother of David.",
+    "events": [
+      "Followed Naomi to Bethlehem.",
+      "Gleaned in Boaz's field.",
+      "Married Boaz; bore Obed."
+    ],
+    "related": ["Naomi", "Boaz", "Orpah", "David"],
+    "verses": ["Ruth 1:16-17", "Ruth 2:1-12", "Ruth 4:13-22"]
+  },
+  {
+    "id": "boaz",
+    "name": "Boaz",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Kinsman-redeemer of Ruth",
+    "summary": "Boaz was a wealthy Bethlehem landowner who showed kindness to Ruth, redeemed Naomi's land, and married Ruth. Their son Obed was grandfather of David.",
+    "events": [
+      "Protected Ruth while she gleaned.",
+      "Acted as kinsman-redeemer and married Ruth."
+    ],
+    "related": ["Ruth", "Naomi", "David"],
+    "verses": ["Ruth 2:1-16", "Ruth 4:1-22"]
+  },
+  {
+    "id": "samuel",
+    "name": "Samuel",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Prophet, priest, and last judge",
+    "summary": "Samuel was dedicated by Hannah, heard God as a boy in Eli's house, judged Israel, anointed Saul then David, and warned the nation about requesting a king.",
+    "events": [
+      "Born in answer to Hannah's prayer.",
+      "Called by God as a child.",
+      "Anointed Saul and later David.",
+      "Confronted Saul after disobedience."
+    ],
+    "related": ["Hannah", "Eli", "Saul", "David"],
+    "verses": ["1 Samuel 1:20-28", "1 Samuel 3:1-21", "1 Samuel 8:4-22", "1 Samuel 16:1-13"]
+  },
+  {
+    "id": "saul",
+    "name": "Saul",
+    "aliases": ["King Saul"],
+    "testament": "OT",
+    "role": "First king of Israel",
+    "summary": "Saul was anointed by Samuel, won early victories, then disobeyed God, lost the kingdom, hunted David, and died in battle against the Philistines.",
+    "events": [
+      "Anointed king; delivered Jabesh-gilead.",
+      "Unlawful sacrifice and sparing of Amalek.",
+      "Jealous of David after Goliath.",
+      "Consulted the medium at Endor; died at Gilboa."
+    ],
+    "related": ["Samuel", "Jonathan", "David", "Michal"],
+    "verses": ["1 Samuel 9:15-27", "1 Samuel 13:8-14", "1 Samuel 15:1-23", "1 Samuel 31:1-6"]
+  },
+  {
+    "id": "david",
+    "name": "David",
+    "aliases": ["son of Jesse"],
+    "testament": "OT",
+    "role": "King of Israel; psalmist",
+    "summary": "David, a shepherd from Bethlehem, killed Goliath, served Saul, then reigned in Hebron and Jerusalem. He brought the ark to Zion, sinned with Bathsheba, and received a covenant of an enduring dynasty fulfilled in the Messiah.",
+    "events": [
+      "Anointed by Samuel; killed Goliath.",
+      "Fled Saul; spared Saul's life.",
+      "Became king; brought the ark to Jerusalem.",
+      "Committed adultery with Bathsheba; was confronted by Nathan.",
+      "Received the Davidic covenant; prepared for the temple."
+    ],
+    "related": ["Samuel", "Saul", "Jonathan", "Bathsheba", "Solomon", "Nathan", "Goliath"],
+    "verses": ["1 Samuel 16:1-13", "1 Samuel 17:32-50", "2 Samuel 7:1-16", "2 Samuel 11:1-27", "Psalm 51:1-19"]
+  },
+  {
+    "id": "jonathan",
+    "name": "Jonathan",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Son of Saul; friend of David",
+    "summary": "Jonathan was Saul's son, a brave warrior who loved David, protected him from Saul, and died with Saul at Gilboa.",
+    "events": [
+      "Attacked a Philistine garrison.",
+      "Covenanted with David and warned him of Saul.",
+      "Died in battle at Mount Gilboa."
+    ],
+    "related": ["Saul", "David"],
+    "verses": ["1 Samuel 14:1-15", "1 Samuel 18:1-4", "1 Samuel 20:1-42", "2 Samuel 1:17-27"]
+  },
+  {
+    "id": "bathsheba",
+    "name": "Bathsheba",
+    "aliases": ["Bath-shua"],
+    "testament": "OT",
+    "role": "Wife of David; mother of Solomon",
+    "summary": "Bathsheba was Uriah's wife. David committed adultery with her and arranged Uriah's death. Their first child died; later she bore Solomon and helped secure his throne.",
+    "events": [
+      "Taken by David while Uriah was at war.",
+      "Mourned Uriah; married David.",
+      "Bore Solomon; appealed to David for Solomon's succession."
+    ],
+    "related": ["David", "Uriah", "Solomon", "Nathan"],
+    "verses": ["2 Samuel 11:1-27", "2 Samuel 12:13-25", "1 Kings 1:11-31"]
+  },
+  {
+    "id": "solomon",
+    "name": "Solomon",
+    "aliases": ["Jedidiah"],
+    "testament": "OT",
+    "role": "King of Israel; temple builder",
+    "summary": "Solomon, son of David and Bathsheba, asked God for wisdom, built the temple, and ruled in great wealth. Foreign wives later turned his heart, and the kingdom split after his death.",
+    "events": [
+      "Anointed king over Adonijah.",
+      "Asked for wisdom at Gibeon.",
+      "Built the temple and dedicated it.",
+      "Visited by the queen of Sheba.",
+      "Turned to other gods in old age."
+    ],
+    "related": ["David", "Bathsheba", "Hiram", "queen of Sheba", "Rehoboam"],
+    "verses": ["1 Kings 3:5-28", "1 Kings 6:1-14", "1 Kings 8:22-30", "1 Kings 10:1-13", "1 Kings 11:1-13"]
+  },
+  {
+    "id": "elijah",
+    "name": "Elijah",
+    "aliases": ["Elias"],
+    "testament": "OT",
+    "role": "Prophet of the Lord against Baal",
+    "summary": "Elijah confronted Ahab and Jezebel, announced drought, defeated Baal's prophets on Carmel, fled to Horeb, and was taken to heaven in a whirlwind. John the Baptist came in his spirit.",
+    "events": [
+      "Declared drought; fed by ravens and the widow of Zarephath.",
+      "Called down fire on Carmel.",
+      "Fled Jezebel; heard God in a still small voice.",
+      "Called Elisha; taken up in a whirlwind."
+    ],
+    "related": ["Ahab", "Jezebel", "Elisha", "Obadiah"],
+    "verses": ["1 Kings 17:1-24", "1 Kings 18:20-40", "1 Kings 19:1-18", "2 Kings 2:1-12"]
+  },
+  {
+    "id": "elisha",
+    "name": "Elisha",
+    "aliases": ["Eliseus"],
+    "testament": "OT",
+    "role": "Prophet; successor of Elijah",
+    "summary": "Elisha received a double portion of Elijah's spirit and performed many miracles: purifying water, multiplying oil, raising the Shunammite's son, and healing Naaman.",
+    "events": [
+      "Followed Elijah and received his mantle.",
+      "Healed water at Jericho; helped a widow with oil.",
+      "Raised the Shunammite's son.",
+      "Healed Naaman of leprosy."
+    ],
+    "related": ["Elijah", "Naaman", "Gehazi"],
+    "verses": ["1 Kings 19:19-21", "2 Kings 2:9-15", "2 Kings 4:1-37", "2 Kings 5:1-14"]
+  },
+  {
+    "id": "naaman",
+    "name": "Naaman",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Syrian commander healed of leprosy",
+    "summary": "Naaman, a Syrian general, had leprosy. A captive Israelite girl sent him to Elisha. After washing seven times in the Jordan he was healed and confessed the God of Israel.",
+    "events": [
+      "Sought healing through Elisha.",
+      "Washed in the Jordan and was cleansed."
+    ],
+    "related": ["Elisha", "Gehazi"],
+    "verses": ["2 Kings 5:1-19"]
+  },
+  {
+    "id": "job",
+    "name": "Job",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Righteous sufferer",
+    "summary": "Job was a blameless man whose faith was tested by devastating loss. He wrestled with friends' accusations, encountered God, and was restored.",
+    "events": [
+      "Lost children, wealth, and health.",
+      "Debated with Eliphaz, Bildad, Zophar, and Elihu.",
+      "Heard God from the whirlwind and was restored."
+    ],
+    "related": ["Eliphaz", "Bildad", "Zophar", "Elihu"],
+    "verses": ["Job 1:1-22", "Job 38:1-7", "Job 42:1-17"]
+  },
+  {
+    "id": "isaiah",
+    "name": "Isaiah",
+    "aliases": ["Esaias"],
+    "testament": "OT",
+    "role": "Prophet in Judah",
+    "summary": "Isaiah prophesied in Jerusalem under Uzziah to Hezekiah. He saw the Lord in the temple, warned of judgment, and spoke of a coming Messiah, servant, and new creation.",
+    "events": [
+      "Vision of the Lord in the year Uzziah died.",
+      "Warned Ahaz; promised Immanuel.",
+      "Encouraged Hezekiah during Assyria's siege."
+    ],
+    "related": ["Hezekiah", "Ahaz", "Uzziah"],
+    "verses": ["Isaiah 6:1-8", "Isaiah 7:14", "Isaiah 9:6-7", "Isaiah 53:1-12"]
+  },
+  {
+    "id": "jeremiah",
+    "name": "Jeremiah",
+    "aliases": ["the weeping prophet"],
+    "testament": "OT",
+    "role": "Prophet before and during Jerusalem's fall",
+    "summary": "Jeremiah was called as a youth to warn Judah of Babylon. He was opposed, imprisoned, and watched Jerusalem fall. He also promised a new covenant.",
+    "events": [
+      "Called as a prophet to the nations.",
+      "Temple sermon and persecution.",
+      "Saw Jerusalem destroyed; wrote Lamentations (traditionally).",
+      "Promised a new covenant."
+    ],
+    "related": ["Baruch", "Zedekiah", "Nebuchadnezzar"],
+    "verses": ["Jeremiah 1:4-10", "Jeremiah 7:1-15", "Jeremiah 31:31-34", "Jeremiah 39:1-10"]
+  },
+  {
+    "id": "ezekiel",
+    "name": "Ezekiel",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Prophet among the exiles",
+    "summary": "Ezekiel, a priest in Babylon, saw visions of God's glory, the valley of dry bones, and a future temple. He explained that Jerusalem fell because of sin, yet God would restore Israel.",
+    "events": [
+      "Vision of the cherubim by the Chebar.",
+      "Acted out Jerusalem's siege.",
+      "Vision of dry bones and a restored temple."
+    ],
+    "related": ["Israel in exile"],
+    "verses": ["Ezekiel 1:1-28", "Ezekiel 37:1-14", "Ezekiel 40:1-4"]
+  },
+  {
+    "id": "daniel",
+    "name": "Daniel",
+    "aliases": ["Belteshazzar"],
+    "testament": "OT",
+    "role": "Exile, interpreter of dreams, prophet",
+    "summary": "Daniel was taken to Babylon, remained faithful in diet and prayer, interpreted dreams for kings, survived the lions' den, and received visions of kingdoms and the Son of Man.",
+    "events": [
+      "Refused the king's food with Hananiah, Mishael, and Azariah.",
+      "Interpreted Nebuchadnezzar's statue dream.",
+      "Read the writing on the wall for Belshazzar.",
+      "Thrown to lions for praying; delivered.",
+      "Received visions of beasts and seventy weeks."
+    ],
+    "related": ["Nebuchadnezzar", "Belshazzar", "Darius", "Shadrach", "Meshach", "Abednego"],
+    "verses": ["Daniel 1:8-21", "Daniel 2:19-45", "Daniel 5:1-31", "Daniel 6:10-23", "Daniel 7:13-14"]
+  },
+  {
+    "id": "esther",
+    "name": "Esther",
+    "aliases": ["Hadassah"],
+    "testament": "OT",
+    "role": "Jewish queen who saved her people",
+    "summary": "Esther, a Jewish orphan raised by Mordecai, became queen of Persia. She risked her life to expose Haman's plot and secured deliverance remembered at Purim.",
+    "events": [
+      "Chosen as queen in place of Vashti.",
+      "Approached the king unsummoned.",
+      "Revealed Haman's plot; Haman was hanged."
+    ],
+    "related": ["Mordecai", "Haman", "Ahasuerus"],
+    "verses": ["Esther 2:5-17", "Esther 4:13-16", "Esther 7:1-10"]
+  },
+  {
+    "id": "nehemiah",
+    "name": "Nehemiah",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Cupbearer who rebuilt Jerusalem's wall",
+    "summary": "Nehemiah served Artaxerxes, mourned Jerusalem's ruins, and led the rebuilding of the wall despite opposition from Sanballat and Tobiah. He also reformed the community with Ezra.",
+    "events": [
+      "Prayed and asked the king for permission to rebuild.",
+      "Organized the wall's construction in 52 days.",
+      "Opposed Sanballat; restored Sabbath and covenant."
+    ],
+    "related": ["Ezra", "Sanballat", "Tobiah", "Artaxerxes"],
+    "verses": ["Nehemiah 1:1-11", "Nehemiah 2:1-8", "Nehemiah 4:1-23", "Nehemiah 6:15-16"]
+  },
+  {
+    "id": "ezra",
+    "name": "Ezra",
+    "aliases": [],
+    "testament": "OT",
+    "role": "Priest and scribe who taught the Law",
+    "summary": "Ezra led a return from exile, taught the Law, and called the people to covenant faithfulness, including dealing with unlawful marriages.",
+    "events": [
+      "Led exiles back with Artaxerxes' support.",
+      "Read the Law with Nehemiah.",
+      "Mourned mixed marriages and led reform."
+    ],
+    "related": ["Nehemiah", "Artaxerxes"],
+    "verses": ["Ezra 7:1-10", "Nehemiah 8:1-8", "Ezra 9:1-15"]
+  },
+  {
+    "id": "jonah",
+    "name": "Jonah",
+    "aliases": ["Jonas"],
+    "testament": "OT",
+    "role": "Prophet sent to Nineveh",
+    "summary": "Jonah fled God's call to Nineveh, was swallowed by a great fish, then preached and saw the city repent. He struggled with God's mercy to Israel's enemies.",
+    "events": [
+      "Fled to Tarshish and was thrown overboard.",
+      "Prayed from the fish and was vomited onto land.",
+      "Preached to Nineveh; angered at God's compassion."
+    ],
+    "related": ["people of Nineveh"],
+    "verses": ["Jonah 1:1-17", "Jonah 2:1-10", "Jonah 3:1-10", "Jonah 4:1-11"]
+  },
+  {
+    "id": "mary-mother",
+    "name": "Mary mother of Jesus",
+    "aliases": ["Virgin Mary", "Mary of Nazareth"],
+    "testament": "NT",
+    "role": "Mother of Jesus",
+    "summary": "Mary of Nazareth received Gabriel's announcement, conceived Jesus by the Holy Spirit, gave birth in Bethlehem, and followed him to the cross. She is distinct from Mary Magdalene and Mary of Bethany.",
+    "events": [
+      "Annunciation and Magnificat.",
+      "Gave birth in Bethlehem; fled to Egypt.",
+      "Found twelve-year-old Jesus in the temple.",
+      "Present at Cana and at the crucifixion."
+    ],
+    "related": ["Jesus", "Joseph", "Elizabeth", "John the Baptist"],
+    "verses": ["Luke 1:26-56", "Luke 2:1-52", "John 2:1-11", "John 19:25-27"]
+  },
+  {
+    "id": "joseph-nt",
+    "name": "Joseph husband of Mary",
+    "aliases": ["Joseph of Nazareth"],
+    "testament": "NT",
+    "role": "Legal father of Jesus; carpenter",
+    "summary": "Joseph, a descendant of David, planned to divorce Mary quietly, then obeyed angelic dreams: he married her, named Jesus, fled to Egypt, and settled in Nazareth.",
+    "events": [
+      "Took Mary as wife after the angel's message.",
+      "Traveled to Bethlehem for the census.",
+      "Fled Herod to Egypt and returned to Nazareth."
+    ],
+    "related": ["Mary mother of Jesus", "Jesus", "Herod"],
+    "verses": ["Matthew 1:18-25", "Matthew 2:13-23", "Luke 2:4-7"]
+  },
+  {
+    "id": "jesus",
+    "name": "Jesus",
+    "aliases": ["Jesus Christ", "Messiah", "Son of God", "Son of Man", "Yeshua"],
+    "testament": "NT",
+    "role": "Messiah; Son of God",
+    "summary": "Jesus of Nazareth, born of Mary, preached the kingdom, healed, called twelve disciples, was crucified under Pontius Pilate, and rose from the dead. Christians confess him as the promised Messiah.",
+    "events": [
+      "Born in Bethlehem; baptized by John.",
+      "Tempted in the wilderness; preached in Galilee.",
+      "Called disciples; transfigured on the mountain.",
+      "Last Supper, crucifixion, resurrection, and ascension."
+    ],
+    "related": ["Mary mother of Jesus", "John the Baptist", "Peter", "John", "Mary Magdalene", "Pilate"],
+    "verses": ["Luke 2:1-20", "Matthew 3:13-17", "John 1:1-18", "Matthew 27:32-54", "Matthew 28:1-10"]
+  },
+  {
+    "id": "john-baptist",
+    "name": "John the Baptist",
+    "aliases": ["John Baptist", "the Baptist"],
+    "testament": "NT",
+    "role": "Forerunner of Jesus",
+    "summary": "John, son of Zechariah and Elizabeth, preached repentance in the wilderness, baptized Jesus, and was executed by Herod Antipas after confronting his marriage to Herodias.",
+    "events": [
+      "Birth announced to Zechariah.",
+      "Baptized crowds in the Jordan; baptized Jesus.",
+      "Pointed to Jesus as the Lamb of God.",
+      "Imprisoned and beheaded."
+    ],
+    "related": ["Jesus", "Elizabeth", "Zechariah", "Herod Antipas", "Herodias"],
+    "verses": ["Luke 1:5-25", "Matthew 3:1-17", "John 1:19-34", "Mark 6:17-29"]
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "aliases": ["Simon Peter", "Simon", "Cephas", "Simon Bar-Jonah"],
+    "testament": "NT",
+    "role": "Apostle; leader among the Twelve",
+    "summary": "Peter, a Galilean fisherman, confessed Jesus as the Christ, denied him three times, was restored, preached at Pentecost, and later wrote letters. He is not the same person as Simon the Zealot.",
+    "events": [
+      "Called from fishing with Andrew.",
+      "Walked on water; confessed Jesus as Messiah.",
+      "Denied Jesus; restored by the risen Christ.",
+      "Preached at Pentecost; visited Cornelius."
+    ],
+    "related": ["Andrew", "Jesus", "John", "James", "Cornelius"],
+    "verses": ["Matthew 4:18-20", "Matthew 16:13-19", "Luke 22:54-62", "John 21:15-19", "Acts 2:14-41"]
+  },
+  {
+    "id": "andrew",
+    "name": "Andrew",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Apostle; brother of Peter",
+    "summary": "Andrew was a fisherman and former follower of John the Baptist who brought his brother Peter to Jesus and later served among the Twelve.",
+    "events": [
+      "Followed Jesus after John's testimony.",
+      "Brought Simon Peter to Jesus.",
+      "Helped present the boy with loaves and fish."
+    ],
+    "related": ["Peter", "Jesus", "John the Baptist"],
+    "verses": ["John 1:35-42", "Matthew 4:18-20", "John 6:8-9"]
+  },
+  {
+    "id": "john-apostle",
+    "name": "John the Apostle",
+    "aliases": ["John son of Zebedee", "the beloved disciple", "John"],
+    "testament": "NT",
+    "role": "Apostle; Gospel and letter writer",
+    "summary": "John, son of Zebedee and brother of James, was in Jesus' inner circle, stood at the cross, and is associated with the Gospel of John, letters, and Revelation. Distinct from John the Baptist.",
+    "events": [
+      "Called with James from their fishing boat.",
+      "Present at the transfiguration and Gethsemane.",
+      "Entrusted with Mary at the cross.",
+      "Exiled to Patmos (traditional setting of Revelation)."
+    ],
+    "related": ["James son of Zebedee", "Jesus", "Peter", "Mary mother of Jesus"],
+    "verses": ["Mark 1:19-20", "Mark 9:2-8", "John 19:26-27", "Revelation 1:9-11"]
+  },
+  {
+    "id": "james-zebedee",
+    "name": "James son of Zebedee",
+    "aliases": ["James the Greater", "James"],
+    "testament": "NT",
+    "role": "Apostle; brother of John",
+    "summary": "James, son of Zebedee, was one of the inner three disciples and the first apostle martyred, killed by Herod Agrippa I. Distinct from James the Lord's brother and James son of Alphaeus.",
+    "events": [
+      "Called with John.",
+      "Present at the transfiguration.",
+      "Put to death by the sword under Herod."
+    ],
+    "related": ["John the Apostle", "Jesus", "Herod Agrippa"],
+    "verses": ["Mark 1:19-20", "Mark 10:35-45", "Acts 12:1-2"]
+  },
+  {
+    "id": "james-brother",
+    "name": "James the Lord's brother",
+    "aliases": ["James of Jerusalem", "James the Just"],
+    "testament": "NT",
+    "role": "Leader of the Jerusalem church",
+    "summary": "James, a brother of Jesus, became a pillar of the Jerusalem church, spoke at the Jerusalem council, and is associated with the letter of James. Distinct from James son of Zebedee.",
+    "events": [
+      "Witness of the risen Jesus.",
+      "Led the Jerusalem church.",
+      "Judged Gentile requirements at the council."
+    ],
+    "related": ["Jesus", "Jude", "Peter", "Paul"],
+    "verses": ["1 Corinthians 15:7", "Acts 15:13-21", "Galatians 1:19", "James 1:1"]
+  },
+  {
+    "id": "matthew",
+    "name": "Matthew",
+    "aliases": ["Levi"],
+    "testament": "NT",
+    "role": "Apostle; former tax collector",
+    "summary": "Matthew, also called Levi, left his tax booth to follow Jesus and hosted a banquet for sinners. The first Gospel is traditionally attributed to him.",
+    "events": [
+      "Called from the tax office.",
+      "Held a feast for Jesus with tax collectors."
+    ],
+    "related": ["Jesus"],
+    "verses": ["Matthew 9:9-13", "Luke 5:27-32"]
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "aliases": ["Didymus", "Doubting Thomas"],
+    "testament": "NT",
+    "role": "Apostle",
+    "summary": "Thomas doubted the resurrection until he saw Jesus' wounds, then confessed him as Lord and God. He also urged the disciples to go with Jesus to Judea.",
+    "events": [
+      "Willing to die with Jesus going to Lazarus.",
+      "Missed the first resurrection appearance.",
+      "Believed after seeing Jesus' hands and side."
+    ],
+    "related": ["Jesus"],
+    "verses": ["John 11:16", "John 14:5", "John 20:24-29"]
+  },
+  {
+    "id": "judas",
+    "name": "Judas Iscariot",
+    "aliases": ["Judas"],
+    "testament": "NT",
+    "role": "Disciple who betrayed Jesus",
+    "summary": "Judas Iscariot, one of the Twelve, betrayed Jesus to the chief priests for thirty pieces of silver, then died in remorse. Distinct from Jude (Judas son of James) and Judah of Genesis.",
+    "events": [
+      "Kept the money bag.",
+      "Agreed to betray Jesus with a kiss.",
+      "Returned the silver and died."
+    ],
+    "related": ["Jesus", "chief priests"],
+    "verses": ["Matthew 26:14-16", "Matthew 26:47-50", "Matthew 27:3-10", "John 13:21-30"]
+  },
+  {
+    "id": "mary-magdalene",
+    "name": "Mary Magdalene",
+    "aliases": ["Mary of Magdala"],
+    "testament": "NT",
+    "role": "Disciple; first witness of the resurrection",
+    "summary": "Mary Magdalene was delivered from seven demons, supported Jesus' ministry, stood at the cross, and was first to see the risen Lord. She is not Mary the mother of Jesus.",
+    "events": [
+      "Healed of seven demons.",
+      "Watched the crucifixion and burial.",
+      "Met the risen Jesus at the tomb."
+    ],
+    "related": ["Jesus"],
+    "verses": ["Luke 8:1-3", "John 19:25", "John 20:1-18"]
+  },
+  {
+    "id": "mary-bethany",
+    "name": "Mary of Bethany",
+    "aliases": ["Mary sister of Martha"],
+    "testament": "NT",
+    "role": "Sister of Martha and Lazarus",
+    "summary": "Mary of Bethany sat at Jesus' feet to listen, later anointed him with costly perfume. Distinct from Mary Magdalene and Mary the mother of Jesus.",
+    "events": [
+      "Sat listening while Martha served.",
+      "Anointed Jesus before his death."
+    ],
+    "related": ["Martha", "Lazarus", "Jesus"],
+    "verses": ["Luke 10:38-42", "John 11:1-44", "John 12:1-8"]
+  },
+  {
+    "id": "martha",
+    "name": "Martha",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Sister of Mary and Lazarus",
+    "summary": "Martha hosted Jesus in Bethany, was corrected for anxious serving, and confessed him as the Christ before Lazarus was raised.",
+    "events": [
+      "Served Jesus while Mary sat and listened.",
+      "Confessed faith at Lazarus' tomb."
+    ],
+    "related": ["Mary of Bethany", "Lazarus", "Jesus"],
+    "verses": ["Luke 10:38-42", "John 11:20-27"]
+  },
+  {
+    "id": "lazarus",
+    "name": "Lazarus",
+    "aliases": ["Lazarus of Bethany"],
+    "testament": "NT",
+    "role": "Friend of Jesus raised from the dead",
+    "summary": "Lazarus of Bethany, brother of Mary and Martha, died and was raised by Jesus after four days. Distinct from the Lazarus in Jesus' parable of the rich man.",
+    "events": [
+      "Fell ill and died.",
+      "Raised from the tomb by Jesus."
+    ],
+    "related": ["Mary of Bethany", "Martha", "Jesus"],
+    "verses": ["John 11:1-44", "John 12:1-11"]
+  },
+  {
+    "id": "nicodemus",
+    "name": "Nicodemus",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Pharisee who came to Jesus by night",
+    "summary": "Nicodemus, a Jewish ruler, visited Jesus at night, heard that one must be born again, later defended him in council, and helped bury him with Joseph of Arimathea.",
+    "events": [
+      "Night conversation about new birth.",
+      "Spoke cautiously in the Sanhedrin.",
+      "Brought spices for Jesus' burial."
+    ],
+    "related": ["Jesus", "Joseph of Arimathea"],
+    "verses": ["John 3:1-21", "John 7:50-52", "John 19:38-42"]
+  },
+  {
+    "id": "pilate",
+    "name": "Pontius Pilate",
+    "aliases": ["Pilate"],
+    "testament": "NT",
+    "role": "Roman governor who sentenced Jesus",
+    "summary": "Pontius Pilate, prefect of Judea, found no guilt in Jesus but yielded to the crowd, washed his hands, and ordered the crucifixion.",
+    "events": [
+      "Questioned Jesus about kingship.",
+      "Offered to release Barabbas.",
+      "Handed Jesus over to be crucified."
+    ],
+    "related": ["Jesus", "Barabbas", "Caiaphas"],
+    "verses": ["John 18:28-40", "John 19:1-22", "Matthew 27:11-26"]
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "aliases": ["Saul of Tarsus", "Saul", "Apostle Paul"],
+    "testament": "NT",
+    "role": "Apostle to the Gentiles",
+    "summary": "Paul, a Pharisee from Tarsus, persecuted Christians until the risen Jesus appeared on the Damascus road. He became the leading missionary to Gentiles, planted churches, and wrote many New Testament letters.",
+    "events": [
+      "Approved Stephen's death; converted on the way to Damascus.",
+      "Missionary journeys with Barnabas, Silas, and others.",
+      "Preached in Athens, Corinth, and Ephesus.",
+      "Arrested in Jerusalem; appealed to Caesar; witnessed in Rome."
+    ],
+    "related": ["Barnabas", "Silas", "Timothy", "Luke", "Priscilla", "Aquila", "Peter"],
+    "verses": ["Acts 9:1-22", "Acts 13:1-3", "Acts 16:16-34", "Acts 17:16-34", "Acts 28:16-31"]
+  },
+  {
+    "id": "barnabas",
+    "name": "Barnabas",
+    "aliases": ["Joseph called Barnabas"],
+    "testament": "NT",
+    "role": "Encourager; missionary companion of Paul",
+    "summary": "Barnabas, a Levite from Cyprus, sold a field for the church, vouched for Paul in Jerusalem, and traveled with him until they split over John Mark.",
+    "events": [
+      "Sold land and gave the proceeds.",
+      "Brought Paul to the apostles.",
+      "Mission with Paul from Antioch; separated over Mark."
+    ],
+    "related": ["Paul", "John Mark", "Silas"],
+    "verses": ["Acts 4:36-37", "Acts 9:26-27", "Acts 11:22-26", "Acts 15:36-41"]
+  },
+  {
+    "id": "timothy",
+    "name": "Timothy",
+    "aliases": ["Timotheus"],
+    "testament": "NT",
+    "role": "Paul's coworker and pastor in Ephesus",
+    "summary": "Timothy, son of a Jewish mother and Greek father, joined Paul, received two pastoral letters, and was urged to guard sound teaching in Ephesus.",
+    "events": [
+      "Circumcised and taken on Paul's journey.",
+      "Sent to churches as Paul's representative.",
+      "Received 1 and 2 Timothy."
+    ],
+    "related": ["Paul", "Eunice", "Lois", "Silas"],
+    "verses": ["Acts 16:1-3", "1 Timothy 1:1-5", "2 Timothy 1:5-14"]
+  },
+  {
+    "id": "silas",
+    "name": "Silas",
+    "aliases": ["Silvanus"],
+    "testament": "NT",
+    "role": "Prophet and missionary with Paul",
+    "summary": "Silas was a leader in Jerusalem, traveled with Paul after the split with Barnabas, was jailed in Philippi, and later associated with Peter as Silvanus.",
+    "events": [
+      "Carried the Jerusalem council letter.",
+      "Sang in prison at Philippi; earthquake and jailer's conversion."
+    ],
+    "related": ["Paul", "Timothy", "Barnabas"],
+    "verses": ["Acts 15:22-34", "Acts 16:19-40"]
+  },
+  {
+    "id": "luke",
+    "name": "Luke",
+    "aliases": ["the beloved physician"],
+    "testament": "NT",
+    "role": "Physician; author of Luke-Acts",
+    "summary": "Luke, a companion of Paul, is the traditional author of the Gospel of Luke and Acts, writing an orderly account for Theophilus.",
+    "events": [
+      "Traveled with Paul (we-sections of Acts).",
+      "Stayed with Paul near the end of his life."
+    ],
+    "related": ["Paul", "Theophilus"],
+    "verses": ["Luke 1:1-4", "Acts 1:1-3", "Colossians 4:14", "2 Timothy 4:11"]
+  },
+  {
+    "id": "priscilla",
+    "name": "Priscilla",
+    "aliases": ["Prisca"],
+    "testament": "NT",
+    "role": "Church worker with Aquila",
+    "summary": "Priscilla and her husband Aquila were tentmakers who hosted Paul, instructed Apollos more accurately, and hosted a church in their house.",
+    "events": [
+      "Met Paul in Corinth as fellow tentmakers.",
+      "Explained the way of God to Apollos."
+    ],
+    "related": ["Aquila", "Paul", "Apollos"],
+    "verses": ["Acts 18:1-3", "Acts 18:24-26", "Romans 16:3-5"]
+  },
+  {
+    "id": "aquila",
+    "name": "Aquila",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Tentmaker; coworker of Paul",
+    "summary": "Aquila, a Jew from Pontus, was expelled from Rome with Priscilla, worked with Paul in Corinth, and helped teach Apollos.",
+    "events": [
+      "Left Italy after Claudius's edict.",
+      "Worked and traveled with Paul and Priscilla."
+    ],
+    "related": ["Priscilla", "Paul", "Apollos"],
+    "verses": ["Acts 18:1-3", "Acts 18:18-26"]
+  },
+  {
+    "id": "apollos",
+    "name": "Apollos",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Eloquent teacher from Alexandria",
+    "summary": "Apollos was mighty in the Scriptures but knew only John's baptism until Priscilla and Aquila instructed him. He then powerfully preached Jesus, especially in Corinth.",
+    "events": [
+      "Preached in Ephesus knowing only John's baptism.",
+      "Taught more accurately; ministered in Achaia."
+    ],
+    "related": ["Priscilla", "Aquila", "Paul"],
+    "verses": ["Acts 18:24-28", "1 Corinthians 3:4-6"]
+  },
+  {
+    "id": "stephen",
+    "name": "Stephen",
+    "aliases": [],
+    "testament": "NT",
+    "role": "First Christian martyr",
+    "summary": "Stephen, one of the seven chosen to serve tables, did wonders, preached Israel's history before the Sanhedrin, and was stoned. Saul (Paul) approved his death.",
+    "events": [
+      "Chosen among the seven.",
+      "Accused of speaking against Moses and the temple.",
+      "Saw Jesus at God's right hand and was stoned."
+    ],
+    "related": ["Paul", "the seven"],
+    "verses": ["Acts 6:1-15", "Acts 7:1-60"]
+  },
+  {
+    "id": "philip-evangelist",
+    "name": "Philip the evangelist",
+    "aliases": ["Philip"],
+    "testament": "NT",
+    "role": "One of the seven; preacher in Samaria",
+    "summary": "Philip, one of the seven, preached in Samaria, explained Isaiah to the Ethiopian eunuch, and later hosted Paul in Caesarea. Distinct from Philip the apostle.",
+    "events": [
+      "Chosen to serve the widows.",
+      "Preached in Samaria.",
+      "Baptized the Ethiopian official."
+    ],
+    "related": ["Stephen", "the Ethiopian eunuch", "Paul"],
+    "verses": ["Acts 6:5", "Acts 8:4-40", "Acts 21:8-9"]
+  },
+  {
+    "id": "cornelius",
+    "name": "Cornelius",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Roman centurion; first recorded Gentile convert in Acts",
+    "summary": "Cornelius of Caesarea feared God, received a vision to send for Peter, and with his household received the Holy Spirit, opening the church to Gentiles.",
+    "events": [
+      "Vision of an angel while praying.",
+      "Peter preached; the Spirit fell on Gentiles."
+    ],
+    "related": ["Peter"],
+    "verses": ["Acts 10:1-48"]
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia",
+    "aliases": [],
+    "testament": "NT",
+    "role": "First convert in Philippi",
+    "summary": "Lydia, a seller of purple from Thyatira, heard Paul at the riverside in Philippi, was baptized with her household, and hosted the missionaries.",
+    "events": [
+      "The Lord opened her heart to Paul's message.",
+      "Hosted Paul and Silas after their release."
+    ],
+    "related": ["Paul", "Silas"],
+    "verses": ["Acts 16:13-15", "Acts 16:40"]
+  },
+  {
+    "id": "phoebe",
+    "name": "Phoebe",
+    "aliases": [],
+    "testament": "NT",
+    "role": "Deacon of the church at Cenchreae",
+    "summary": "Phoebe was commended by Paul as a servant/deacon of Cenchreae and a helper of many, likely carrying the letter to the Romans.",
+    "events": [
+      "Commended to the Roman church as a patron and servant."
+    ],
+    "related": ["Paul"],
+    "verses": ["Romans 16:1-2"]
+  },
+  {
+    "id": "herod-great",
+    "name": "Herod the Great",
+    "aliases": ["King Herod"],
+    "testament": "NT",
+    "role": "King of Judea at Jesus' birth",
+    "summary": "Herod the Great ruled Judea under Rome, rebuilt the temple, and tried to kill the infant Jesus by slaughtering boys in Bethlehem. Distinct from Herod Antipas and Herod Agrippa.",
+    "events": [
+      "Questioned the Magi about the newborn king.",
+      "Ordered the massacre in Bethlehem."
+    ],
+    "related": ["Jesus", "Joseph husband of Mary", "Magi"],
+    "verses": ["Matthew 2:1-18"]
+  },
+  {
+    "id": "caiaphas",
+    "name": "Caiaphas",
+    "aliases": [],
+    "testament": "NT",
+    "role": "High priest at Jesus' trial",
+    "summary": "Caiaphas was high priest who argued that one man should die for the people, presided over Jesus' hearing, and later opposed the apostles.",
+    "events": [
+      "Counseled that Jesus should die.",
+      "Questioned Jesus about being the Christ."
+    ],
+    "related": ["Annas", "Jesus", "Pilate"],
+    "verses": ["John 11:47-53", "Matthew 26:57-68"]
+  }
+]

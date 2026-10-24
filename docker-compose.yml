@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - bible-index:/app/data/index
+      - bible-raw:/app/data/bible
+      - hf-cache:/app/data/hf
+    environment:
+      HF_HOME: /app/data/hf
+
+volumes:
+  bible-index:
+  bible-raw:
+  hf-cache:

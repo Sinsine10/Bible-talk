@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bible People RAG</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: Georgia, "Times New Roman", serif; max-width: 46rem; margin: 2rem auto; padding: 0 1.25rem; line-height: 1.5; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    .lede { color: #555; margin-top: 0; }
+    textarea { width: 100%; min-height: 5.5rem; font: inherit; padding: 0.6rem; box-sizing: border-box; }
+    button { font: inherit; padding: 0.45rem 1rem; cursor: pointer; }
+    .row { display: flex; gap: 0.5rem; align-items: center; margin: 0.6rem 0 1.2rem; }
+    #answer { white-space: pre-wrap; background: color-mix(in srgb, CanvasText 6%, Canvas); padding: 1rem; border-radius: 8px; }
+    .passages { list-style: none; padding: 0; }
+    .passages li { border-top: 1px solid color-mix(in srgb, CanvasText 15%, Canvas); padding: 0.8rem 0; }
+    .meta { font-size: 0.85rem; opacity: 0.75; }
+    .err { color: #b00020; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <h1>Bible People RAG</h1>
+  <p class="lede">Ask about a person in Scripture. Answers are pulled from person cards and the King James text.</p>
+  <form id="ask">
+    <textarea name="question" required minlength="3" placeholder="Who was Barnabas, and what did he do with Paul?"></textarea>
+    <div class="row">
+      <button type="submit">Ask</button>
+      <span id="status"></span>
+    </div>
+  </form>
+  <div id="out" hidden>
+    <p class="meta" id="mode"></p>
+    <div id="answer"></div>
+    <h2>Retrieved passages</h2>
+    <ul class="passages" id="passages"></ul>
+  </div>
+  <p class="meta"><a href="/docs">API docs</a> · <a href="/v1/people">People index</a></p>
+  <script>
+    const form = document.getElementById("ask");
+    const status = document.getElementById("status");
+    const out = document.getElementById("out");
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const question = new FormData(form).get("question");
+      status.textContent = "Searching…";
+      out.hidden = true;
+      try {
+        const res = await fetch("/v1/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || res.statusText);
+        document.getElementById("mode").textContent = "Mode: " + data.mode;
+        document.getElementById("answer").textContent = data.answer;
+        document.getElementById("passages").innerHTML = (data.passages || []).map((p) => {
+          const label = p.ref || p.name || p.source;
+          return `<li><div class="meta">${p.source} · ${label}</div><div>${p.text}</div></li>`;
+        }).join("");
+        out.hidden = false;
+        status.textContent = "";
+      } catch (err) {
+        status.innerHTML = `<span class="err">${err.message}</span>`;
+      }
+    });
+  </script>
+</body>
+</html>
