@@ -1,71 +1,438 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bible People RAG</title>
+  <meta name="theme-color" content="#10091f" />
+  <title>Bible People RAG | Explore Scripture</title>
   <style>
-    :root { color-scheme: light dark; }
-    body { font-family: Georgia, "Times New Roman", serif; max-width: 46rem; margin: 2rem auto; padding: 0 1.25rem; line-height: 1.5; }
-    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
-    .lede { color: #555; margin-top: 0; }
-    textarea { width: 100%; min-height: 5.5rem; font: inherit; padding: 0.6rem; box-sizing: border-box; }
-    button { font: inherit; padding: 0.45rem 1rem; cursor: pointer; }
-    .row { display: flex; gap: 0.5rem; align-items: center; margin: 0.6rem 0 1.2rem; }
-    #answer { white-space: pre-wrap; background: color-mix(in srgb, CanvasText 6%, Canvas); padding: 1rem; border-radius: 8px; }
-    .passages { list-style: none; padding: 0; }
-    .passages li { border-top: 1px solid color-mix(in srgb, CanvasText 15%, Canvas); padding: 0.8rem 0; }
-    .meta { font-size: 0.85rem; opacity: 0.75; }
-    .err { color: #b00020; }
-    a { color: inherit; }
+    :root {
+      color-scheme: dark;
+      --bg: #0d0818;
+      --panel: #171027;
+      --panel2: #211536;
+      --purple: #9b5cff;
+      --purple2: #7136dc;
+      --text: #f6f0ff;
+      --muted: #b8a9d0;
+      --border: rgba(185, 139, 255, .22);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at 50% 0%, #291448 0%, transparent 48%),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+    }
+
+    button, textarea { font: inherit; }
+
+    .shell {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 54px 0 32px;
+    }
+
+    .hero { text-align: center; margin-bottom: 34px; }
+
+    .brand-icon {
+      display: inline-grid;
+      place-items: center;
+      width: 76px;
+      height: 76px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: linear-gradient(145deg, #38205b, #170e2b);
+      box-shadow: 0 0 42px #873dff24;
+      font-size: 36px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      line-height: 1.12;
+      letter-spacing: -1.5px;
+      margin: 0;
+    }
+
+    h1 span {
+      background: linear-gradient(90deg, #d9b8ff, #9957ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lede {
+      max-width: 620px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 13px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: #d7baff;
+      background: #9b5cff12;
+      font-size: .82rem;
+      margin-bottom: 20px;
+    }
+
+    .panel {
+      background: linear-gradient(145deg, #1b122c, #120c20);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: clamp(20px, 4vw, 32px);
+      box-shadow: 0 18px 60px #00000026;
+      margin-bottom: 22px;
+    }
+
+    .section-label {
+      display: block;
+      font-weight: 650;
+      margin-bottom: 12px;
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+      min-height: 145px;
+      resize: vertical;
+      border: 1px solid #654394;
+      border-radius: 15px;
+      padding: 17px;
+      background: #0e0919;
+      color: var(--text);
+      outline: none;
+      transition: border .2s, box-shadow .2s;
+    }
+
+    textarea:focus {
+      border-color: var(--purple);
+      box-shadow: 0 0 0 4px #9b5cff20;
+    }
+
+    textarea::placeholder { color: #89799f; }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-top: 17px;
+    }
+
+    .btn {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 21px;
+      cursor: pointer;
+      font-weight: 650;
+      transition: transform .2s, filter .2s;
+    }
+
+    .btn:hover { transform: translateY(-2px); filter: brightness(1.12); }
+    .btn:disabled { opacity: .65; cursor: wait; transform: none; }
+
+    .primary {
+      color: white;
+      background: linear-gradient(115deg, #8d43f5, #6426cc);
+      box-shadow: 0 7px 24px #7a36e833;
+    }
+
+    .secondary {
+      color: #e4d7f7;
+      background: #ffffff08;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: .88rem;
+      margin-left: auto;
+    }
+
+    .suggestions { margin-top: 22px; }
+
+    .suggestions-title {
+      font-size: .86rem;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+
+    .chip {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #ffffff05;
+      color: #d7c5f2;
+      font-size: .84rem;
+      cursor: pointer;
+    }
+
+    .chip:hover { background: #9b5cff20; border-color: #9b5cff88; }
+
+    #status { color: #c8a9ff; font-size: .9rem; }
+    .error { color: #ff9aa8 !important; }
+
+    [hidden] { display: none !important; }
+
+    .result-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    h2 { font-size: 1.2rem; margin: 0; }
+
+    .tag {
+      display: inline-block;
+      color: #d7baff;
+      background: #8d43f522;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 10px;
+      font-size: .78rem;
+    }
+
+    #answer {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      background: #0e0919;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      padding: 22px;
+      color: #eee4ff;
+    }
+
+    .passages {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .passages li {
+      border: 1px solid var(--border);
+      background: #ffffff04;
+      border-radius: 14px;
+      padding: 17px;
+      overflow-wrap: anywhere;
+    }
+
+    .passage-meta {
+      color: #c69aff;
+      font-size: .82rem;
+      font-weight: 650;
+      margin-bottom: 7px;
+    }
+
+    .passage-text { color: #ddd1ef; }
+
+    .empty {
+      color: var(--muted);
+      padding: 20px 0 4px;
+      text-align: center;
+    }
+
+    .quote {
+      display: flex;
+      gap: 17px;
+      align-items: flex-start;
+      color: var(--muted);
+      font-family: Georgia, serif;
+      font-style: italic;
+    }
+
+    .quote-mark { font-size: 2rem; color: var(--purple); line-height: 1; }
+
+    footer {
+      text-align: center;
+      padding: 18px 10px 0;
+      color: #89799f;
+      font-size: .82rem;
+    }
+
+    @media (max-width: 600px) {
+      .shell { padding-top: 32px; }
+      .panel { border-radius: 17px; }
+      .actions .btn { flex: 1; }
+      .hint { width: 100%; margin-left: 0; }
+      .result-heading { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition: none !important; }
+    }
   </style>
 </head>
 <body>
-  <h1>Bible People RAG</h1>
-  <p class="lede">Ask about a person in Scripture. Answers are pulled from person cards and the King James text.</p>
-  <form id="ask">
-    <textarea name="question" required minlength="3" placeholder="Who was Barnabas, and what did he do with Paul?"></textarea>
-    <div class="row">
-      <button type="submit">Ask</button>
-      <span id="status"></span>
-    </div>
-  </form>
-  <div id="out" hidden>
-    <p class="meta" id="mode"></p>
-    <div id="answer"></div>
-    <h2>Retrieved passages</h2>
-    <ul class="passages" id="passages"></ul>
-  </div>
-  <p class="meta"><a href="/docs">API docs</a> · <a href="/v1/people">People index</a></p>
+  <main class="shell">
+    <header class="hero">
+      <div class="brand-icon" aria-hidden="true">✝</div>
+      <div><span class="pill">✦ YOUR SCRIPTURE COMPANION</span></div>
+      <h1>Bible People <span>RAG</span></h1>
+      <p class="lede">
+        Discover the lives, journeys, and lessons of biblical people.
+        Explore answers grounded in person cards and the King James Bible.
+      </p>
+    </header>
+
+    <section class="panel">
+      <form id="ask">
+        <label class="section-label" for="question">What would you like to discover?</label>
+        <textarea id="question" name="question" required minlength="3"
+          placeholder="Who was Barnabas, and what did he do with Paul?"></textarea>
+
+        <div class="actions">
+          <button class="btn primary" id="askButton" type="submit">✦ Ask Scripture</button>
+          <button class="btn secondary" id="clearButton" type="button">Clear</button>
+          <span class="hint">Ask about any person or their story in Scripture.</span>
+        </div>
+        <div id="status" role="status" aria-live="polite" style="margin-top:12px"></div>
+      </form>
+
+      <div class="suggestions">
+        <div class="suggestions-title">NEED AN IDEA? TRY ASKING</div>
+        <div class="chips">
+          <button type="button" class="chip" data-question="Who was Esther and how did she save her people?">Esther's courage</button>
+          <button type="button" class="chip" data-question="Who was Moses and how did he lead the Israelites?">The story of Moses</button>
+          <button type="button" class="chip" data-question="Who was Mary Magdalene and what did she do?">Mary Magdalene</button>
+          <button type="button" class="chip" data-question="Tell me about David and Goliath.">David and Goliath</button>
+          <button type="button" class="chip" data-question="Who was Paul and how did he become an apostle?">Paul's journey</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="out" hidden aria-live="polite">
+      <div class="result-heading">
+        <h2>✦ Your Scripture insight</h2>
+        <span class="tag" id="mode"></span>
+      </div>
+      <div id="answer"></div>
+
+      <div style="margin-top:28px">
+        <div class="result-heading">
+          <h2>📖 Retrieved passages</h2>
+          <span class="tag" id="passageCount">0 passages</span>
+        </div>
+        <ul class="passages" id="passages"></ul>
+      </div>
+    </section>
+
+    <section class="panel quote">
+      <div class="quote-mark" aria-hidden="true">“</div>
+      <div>
+        <div>Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me.</div>
+        <div style="color:#b98aff;margin-top:8px;font-style:normal">John 5:39 · King James Version</div>
+      </div>
+    </section>
+
+    <footer>Bible People RAG · A Scripture exploration tool · King James Version</footer>
+  </main>
+
   <script>
     const form = document.getElementById("ask");
+    const questionInput = document.getElementById("question");
     const status = document.getElementById("status");
     const out = document.getElementById("out");
+    const askButton = document.getElementById("askButton");
+    const passagesList = document.getElementById("passages");
+
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
-      const question = new FormData(form).get("question");
-      status.textContent = "Searching…";
+      const question = questionInput.value.trim();
+      if (question.length < 3) return;
+
+      status.className = "";
+      status.textContent = "Searching Scripture…";
+      askButton.disabled = true;
+      askButton.textContent = "Searching…";
       out.hidden = true;
+
       try {
         const res = await fetch("/v1/ask", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question }),
+          body: JSON.stringify({ question })
         });
+
         const data = await res.json();
-        if (!res.ok) throw new Error(data.detail || res.statusText);
-        document.getElementById("mode").textContent = "Mode: " + data.mode;
-        document.getElementById("answer").textContent = data.answer;
-        document.getElementById("passages").innerHTML = (data.passages || []).map((p) => {
-          const label = p.ref || p.name || p.source;
-          return `<li><div class="meta">${p.source} · ${label}</div><div>${p.text}</div></li>`;
-        }).join("");
+        if (!res.ok) {
+          throw new Error(typeof data.detail === "string" ? data.detail : "Something went wrong. Please try again.");
+        }
+
+        document.getElementById("mode").textContent = "Mode: " + (data.mode || "Scripture search");
+        document.getElementById("answer").textContent = data.answer || "No answer was returned.";
+        passagesList.replaceChildren();
+
+        (data.passages || []).forEach((p) => {
+          const li = document.createElement("li");
+          const meta = document.createElement("div");
+          meta.className = "passage-meta";
+          meta.textContent = [p.source, p.ref || p.name || ""].filter(Boolean).join(" · ");
+
+          const content = document.createElement("div");
+          content.className = "passage-text";
+          content.textContent = p.text || "";
+
+          li.append(meta, content);
+          passagesList.appendChild(li);
+        });
+
+        document.getElementById("passageCount").textContent =
+          `${(data.passages || []).length} passage${(data.passages || []).length === 1 ? "" : "s"}`;
+
+        if (!passagesList.children.length) {
+          const empty = document.createElement("li");
+          empty.className = "empty";
+          empty.textContent = "No passages were retrieved for this question.";
+          passagesList.appendChild(empty);
+        }
+
         out.hidden = false;
         status.textContent = "";
+        out.scrollIntoView({ behavior: "smooth", block: "start" });
       } catch (err) {
-        status.innerHTML = `<span class="err">${err.message}</span>`;
+        status.className = "error";
+        status.textContent = err.message || "Unable to connect. Please try again.";
+      } finally {
+        askButton.disabled = false;
+        askButton.textContent = "✦ Ask Scripture";
       }
+    });
+
+    document.querySelectorAll("[data-question]").forEach((button) => {
+      button.addEventListener("click", () => {
+        questionInput.value = button.dataset.question;
+        questionInput.focus();
+      });
+    });
+
+    document.getElementById("clearButton").addEventListener("click", () => {
+      form.reset();
+      out.hidden = true;
+      status.textContent = "";
+      status.className = "";
+      questionInput.focus();
     });
   </script>
 </body>
 </html>
+```
