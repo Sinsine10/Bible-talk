@@ -135,4 +135,4 @@ def person_card(name: str) -> dict | None:
     person = matches[0]
     related = retrieve(f"{person['name']} {person['summary'][:180]}", top_k=6)
     return {"person": person, "passages": [p for p in related if p["source"] == "bible"]}
-#try
+
